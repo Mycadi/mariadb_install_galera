@@ -1,0 +1,8 @@
+[mysqld]
+wsrep-node-name = "dbnode01"
+wsrep-sst-receive-address = 10.18.104.165
+wsrep-node-incoming-address = 10.18.104.165
+bind-address = 10.18.104.165
+wsrep_sst_method = rsync
+wsrep-cluster-address = gcomm://
+#wsrep-cluster-address = gcomm://10.18.104.165,10.18.104.166,10.18.104.167
